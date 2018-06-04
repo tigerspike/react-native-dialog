@@ -133,11 +133,11 @@ const styles = StyleSheet.create({
   }),
   footer: Platform.select({
     ios: {
-      flexDirection: "row",
+      flexDirection: "column",
       justifyContent: "space-between",
       borderTopColor: "#A9ADAE",
       borderTopWidth: StyleSheet.hairlineWidth,
-      height: 46
+      height: 'auto'
     },
     android: {
       flexDirection: "row",
@@ -147,8 +147,8 @@ const styles = StyleSheet.create({
     }
   }),
   buttonSeparator: {
-    height: "100%",
+    height: StyleSheet.hairlineWidth,
     backgroundColor: "#A9ADAE",
-    width: StyleSheet.hairlineWidth
+    width: "100%"
   }
 });

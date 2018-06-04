@@ -54,7 +54,8 @@ const styles = StyleSheet.create({
     ios: {
       flex: 1,
       justifyContent: "center",
-      alignItems: "center"
+      alignItems: "center",
+      paddingVertical: 23
     },
     android: {
       justifyContent: "center",
