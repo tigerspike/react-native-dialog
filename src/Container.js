@@ -51,7 +51,7 @@ export default class DialogContainer extends React.PureComponent {
     });
     return (
       <AnimatedModal
-        backdropOpacity={0.3}
+        backdropOpacity={0.8}
         style={styles.modal}
         isVisible={visible}
         animationIn={Platform.OS === "ios" ? IOS_MODAL_ANIMATION : "zoomIn"}
